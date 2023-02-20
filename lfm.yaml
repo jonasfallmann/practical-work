@@ -21,9 +21,9 @@ data_path: ./data/
 dataset: rb_lfm
 worker: 1
 device: cuda
-embedding_size: 48
-kg_embedding_size: 48
-layers: [64,32]
+embedding_size: 32
+kg_embedding_size: 32
+layers: [32,16]
 train_batch_size: 256
 eval_batch_size: 256
 epochs: 100
