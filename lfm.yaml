@@ -19,12 +19,13 @@ topk: 10
 valid_metric: NDCG@10
 data_path: ./data/
 dataset: rb_lfm
-worker: 1
+worker: 8
 device: cuda
 embedding_size: 32
 kg_embedding_size: 32
-layers: [32,16]
-train_batch_size: 256
+kg_reverse_r: True
+layers: [32, 16, 8]
+train_batch_size: 512
 eval_batch_size: 256
-epochs: 100
+epochs: 20
 #state: "debug"
