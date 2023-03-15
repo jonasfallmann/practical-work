@@ -25,8 +25,8 @@ device: cuda
 embedding_size: 32
 kg_embedding_size: 32
 kg_reverse_r: True
-layers: [32, 16, 8]
+layers: [64, 32, 16]
 train_batch_size: 1024
 eval_batch_size: 1024
-epochs: 35
+epochs: 40
 seed: 2020
