@@ -13,7 +13,7 @@ load_col:
 eval_args:
    split: {'RS': [8,1,1]}
    group_by: user
-   order: RO
+   order: TO
    mode: full
 metrics: ['NDCG', 'Hit', 'Precision']
 topk: 10
